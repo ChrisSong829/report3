@@ -32,56 +32,5 @@ public class Hero extends LivingThing {
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", getName());
         }
     }
-     /**
-     * getterメソッドを用意し,private指定したNameにアクセス可能にする
-     */
-    public String getName(){
-        return this.name;
-    }
-    /**
-      *getterメソッドを用意し,private指定したhitpointにアクセス可能にする
-     */
-    public int getHitPoint(){
-        return this.hitPoint;
-    }
-    /**
-     * getterメソッドを用意し,private指定したattackにアクセス可能にする
-     */
-    public int getAttack(){
-        return this.attack;
-    }
-    /**
-     * getterメソッドを用意し,private指定したdeadにアクセス可能にする
-     */
-     public boolean getDead(){
-            return this.dead;
-    }
-    /**
-     * フィールドname setterメソッドを用意する
-     * @param name フィールドnameに代入する
-     */
-    public void setName(String name){
-        this.name = name;
-    }
-    /**
-     * フィールドhitPoint setterメソッドを用意する
-     * @param hitPoint フィールドhitpointに代入する
-     */
-    public void setHitPoint(int hitPoint){
-        this.hitPoint = hitPoint;
-    }
-    /**
-     * フィールドattack setterメソッドを用意する
-     * @param attack フィールドattackに代入する
-     */
-    public void setAttack(int attack){
-        this.attack = attack;
-    }
-    /**
-     * フィールドdead setterメソッドを用意する
-     * @param dead フィールドdeadに代入する
-     */
-    public void setDead(boolean dead){
-        this.dead = dead;
-    }
+    
 }
