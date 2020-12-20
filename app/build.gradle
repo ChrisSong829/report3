@@ -11,8 +11,6 @@ plugins {
     id 'application'
 }
 
-sourceCompatibility = 10
-
 repositories {
     // Use JCenter for resolving dependencies.
     jcenter()
@@ -31,16 +29,10 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'jp.ac.uryukyu.ie.e205728.App'
+    mainClass = 'report3.App'
 }
 
 tasks.named('test') {
     // Use junit platform for unit tests.
     useJUnitPlatform()
-}
-
-jar {
-    manifest {
-        attributes "Main-Class": "jp.ac.uryukyu.ie.e205728.App"
-    }
 }
